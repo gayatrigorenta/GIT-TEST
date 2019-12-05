@@ -22,7 +22,7 @@ namespace GoogleSearch
             //Find the Search text box UI Element
             IWebElement element = driver.FindElement(By.Name("q"));
             //Perform Ops
-            element.SendKeys("Hello");
+            element.SendKeys("Hello World");
             element.FindElement(By.XPath("//div[@class='FPdoLc VlcLAe']//input[@name='btnK']")).Click();
             //Close the browser
             Thread.Sleep(5000);
